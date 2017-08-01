@@ -1,0 +1,18 @@
+body{
+	background-image: url(../img/fondo2.jpg);
+	background-size: cover;
+   background-attachment: fixed;
+	}
+
+#nav{
+	float: right;
+	margin-right: 5%;	
+}
+
+#main{
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 20px;
+
+}
+

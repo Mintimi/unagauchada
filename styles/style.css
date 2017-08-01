@@ -1,0 +1,568 @@
+body{
+	background-image: url(../img/mapa3.jpg);
+	background-repeat:repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	}
+
+#logo img{
+	 width: 80%;
+}
+
+#logo {
+	width: 15%;
+	float: left;
+}
+#wrap {
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgba(255,255,255,0.6);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#main {
+	width: 100%;
+	margin-top: 5%;
+}
+
+/*#main a{
+	float: right;
+}*/
+#filtro {
+    margin-top: 10%;
+    width: 124%;
+    margin-left: -12%;
+}
+
+#nav{
+	float: right;
+	margin-right: 5%;
+	
+}
+#nav a {
+	color: inherit;
+	/*text-decoration: none;*/
+	text-decoration-color: black;
+	margin-right: 10px;
+}
+#nav a:hover {
+    border-bottom: 2px solid orange;
+}
+#gauchadaU h3 {
+	text-align: center;
+	
+}
+#gauchadaU img{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 3%;
+}
+
+.menu{
+ 	margin: 10%;
+ 	clear: both; 
+ }
+/*.menu a{
+ 	float: right;
+	margin-bottom: 3%;
+	text-decoration: none;
+	color: black;
+ }*/
+.menu a:hover {
+    border-bottom: 2px solid orange;
+}
+ .gauchada {
+    border: solid black 1px;
+    clear: both;
+    padding: 15px;
+    border-radius: 5px;
+    height: 180px;
+}
+.gauchada a{
+	/*text-decoration: none;*/
+	color: black;/*
+	float: right;
+	margin-bottom: 3%;
+	margin-top: -5%;*/
+}
+ .gauchada img{
+ 	width: 80%;
+
+ }
+ /*.gauchada h3,h4{
+ 	margin-left: 50%;
+ }*/
+
+ .tituloG a{
+ 	text-align: center;
+ 	/*text-decoration: none;*/
+ 	font-weight: bolder;
+ }
+ .tituloG {
+ 	width: 100%;
+ }
+
+.textarea * {
+  vertical-align: top;
+}
+.selected{
+	border-bottom: 2px solid orange;
+}
+
+.dataFooter {
+    text-align: center;
+    margin-top: 10%;
+}
+#vacio {
+    height: 80%;
+    clear: both;
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 50%;
+}
+.mensaje{
+	text-align: center;
+
+}
+.titulo{
+	margin-left:  37%;
+
+}
+#colorBoton button:hover{
+	 border-bottom: 2px solid orange;
+}
+#botoncito{
+	background: none !important;
+	text-decoration: none;
+	color: inherit;
+	border: none;
+	padding:0 !important;
+	font: inherit;
+	float:right;
+	margin-right: 45%;
+	text-decoration: underline;
+}
+
+#botoncitoRaro{
+	background: none !important;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    float: left;
+    margin-right: 2px;
+    text-decoration: underline;
+  /*  margin-right: 19%;
+    margin-top: -15px;*/
+}
+#perfil {
+	width: 70%;
+	
+}
+#perfil img {
+    width: 33%;
+    float: left;
+    margin-left: 12%;
+    margin-top: -5%;
+}
+#coment{
+	border-radius: 11px;
+	padding-left: 5%;
+	margin-bottom: 3%;
+}
+.borde{
+	border: solid orange 2px;
+	background-color: rgba(255,152,0,0.13);
+}
+
+#perfil p{
+	margin-left: 50%;
+}
+#opc{
+	float:right;
+	margin-top: -24%;
+}
+#opc a{
+	/*float: right;*/
+	margin-bottom: 3%;
+	/*text-decoration: none;*/
+	color: black;
+	/*margin-right: 24%;*/
+
+}
+#opc a:hover {
+    border-bottom: 2px solid orange;
+}
+#opcM {
+    float: right;
+    margin-top: -37%;
+}
+#opcM a{ 
+	margin-bottom: -2%;
+	/*text-decoration: none;*/
+	color: black;
+	/*margin-right: 10%;
+	text-align: center;
+	display: inline-block;*/
+}
+
+#volver {
+    margin-bottom: 51px;
+    margin-right: 6%;
+    width: 20%;
+    float: right;
+    margin-top: -5%;
+}
+
+#volver a{
+	float:right;
+	/*text-decoration: none;*/
+	color: black;
+}
+#volver a:hover {
+	border-bottom: 2px solid orange;
+}
+#volverM {
+	margin-bottom: 51px;
+    margin-right: 6%;
+}
+#volverM a{
+
+	float:right;
+	/*text-decoration: none;*/
+	color: black;
+	margin-top: -20%;
+}
+#cambios{
+	float:right;
+}
+
+#calU {
+    width: 90%;
+	border: solid black 1px;
+	margin-left: 5%;
+	margin-right: 8%;
+	padding-left: 8%;
+	padding-right: 2%;
+	border-radius: 7px;
+	padding-bottom: 6%;
+}
+
+
+.menuPerfil{
+	clear: both
+}
+
+#datos {
+    margin-left: 3%;
+}
+#com {
+    margin-left: 3%;
+    width: 65%;
+    margin-bottom: -7%;
+}
+#elegido{
+	float: right;
+	margin-top: -12%;
+	margin-right: 6%;
+}
+#elegido a{
+	float: right;
+	/*text-decoration: none;*/
+	color: black;
+}
+#opcionesPos a{
+    margin-top: -6%;
+    float: left;
+    margin-left: 77%;
+}
+
+.p{
+	margin-left: -60%;
+    margin-top: 70%;
+    margin-bottom: 5%;
+}
+.fin{
+	color: orange;
+	text-align: center;
+}
+#usuario {
+	width: 90%;
+	margin-right: 5%;
+	border-radius: 10px;
+	padding-bottom: 7%;
+}
+#usuario a{
+	margin-right: 7%;
+	/*text-decoration: none;*/
+	color: black;
+	margin-top: -4%;
+}
+.negrito{
+	border: black solid 1px;
+}
+
+.tituloG a:hover {
+    border-bottom: none !important;   
+}
+
+#perfilPos {
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+#perfilPos img{
+    width: 25%;
+    float: left;
+    margin-top: -9%;
+	margin-right: 7%;
+}
+
+/********************/
+.imagenG {
+    width: 30%;
+    float: left;
+    margin-top: 3%;
+}
+
+.imagenG img{
+	width: 100%;
+}
+
+.contenidoG{
+	float: right;
+	width: 65%;
+}
+.contenidoG h4{
+	margin: 0;
+}
+#perfilPos{
+
+}
+
+.ver {
+
+  width:38%;
+  float: right;
+  margin-top: 10%;
+  margin-right: -15%;
+}
+.ver a{
+	float:left;
+	/*text-decoration: none;*/
+	color: black;
+	margin-left: 27%;
+}
+.ver a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.tituloPR {
+	text-align:center;
+}
+#sinContenido{
+	text-align: center;
+	padding: 10%;
+}
+
+#cajaGauchadas{
+	width: 90%;
+}
+
+.individual{
+	width: 70;
+	border: solid black 1px;
+	padding: 7%;
+	margin-top: 3%;
+	margin-left: 9%;
+	border-radius: 8px;
+	padding-bottom: 15%;
+}
+.cont{
+	float:left;
+	margin-top: -50px;
+	width: 75%;
+}
+
+.cont a{
+	color:black;
+	/*text-decoration: none;*/
+}
+.cont a:hover{
+	 border-bottom: 2px solid orange;
+}
+.individual img{
+	width: 23%;
+    float: right;
+    margin-top: -5%;
+
+}
+#vol {
+    float: right;
+}
+#vol a {
+   /*text-decoration: none;*/
+    color: black;
+}
+#volverPos {
+    /*margin-bottom: 51px;*/
+    margin-right: 6%;
+    width: 30%;
+	float: right;
+	margin-top: -1%;
+}
+
+#volverPos a{
+	float:left;
+	/*text-decoration: none;*/
+	color: black;
+	margin-left: 47%;
+
+}
+#volverPos a:hover {
+	border-bottom: 2px solid orange;
+}
+.resp a{
+	text-decoration: none;
+	color: black;
+}
+
+.resp a:hover{
+	border-bottom: 2px solid orange;
+}
+#preg{
+	width:95%;
+}
+#imgM img{
+    width: 20%;
+    float: left;
+    margin-bottom: 65%;
+    margin-right: 3%;
+    margin-top: 7%;
+}
+#cuadrito{
+	margin-top:8%;
+}
+
+#calificacionCajita {
+   
+    border: solid black 1px;
+    padding-left: 5%;
+    width: 93%;
+    border-radius: 8px;
+    padding-right: 4%;
+}
+.opcGestion img{
+	width: 60%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+
+}
+.opcGestion {
+    width: 27%;
+    float: left;
+    margin-left: 6%;
+    margin-bottom: 7%
+}
+
+.opcGestion a{
+	text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+#vista {
+    margin-bottom: 71%;
+    margin-top: 10%;
+}
+#listar{
+	margin-top: 15%;
+}
+#opt {
+    float: right;
+    margin-top: -8%;
+}
+#opt a {
+    color: black;
+    margin-right: 17px;
+}
+#opt a:hover{
+	border-bottom: 2px solid orange;
+}
+#cont{
+    margin-top: 3%;
+    width: 70%;
+    border: solid 1px;
+    padding-left: 2%;
+    border-radius: 8px;
+    
+}
+
+#cont p {
+    width: 30%;
+}
+#contR{
+    margin-top: 3%;
+    width: 86%;
+    border: solid 1px;
+    padding-left: 2%;
+    border-radius: 8px;
+}
+
+#contR p {
+    width: 50%;
+}
+
+#cajita{
+	margin-left: 12%;
+	margin-bottom: 20%;
+	
+}
+#agregar{
+	margin-bottom: 5%;
+}
+#agregar button {
+    margin-left: 1%;
+}
+.ok{
+	margin-left:3%;
+	color:green;
+}
+.error{
+	margin-left:3%;
+	color:red;
+}
+.margen {
+    padding: 4%;
+}
+.top{
+	margin-top: 10%;
+}
+
+.margenTop a{
+	margin-top: 15%;
+}
+#titulo{
+	margin-left:30%;
+}
+.nombre{
+	margin-left:50%;
+}
+#ordenarPor{
+    margin-bottom: -6%;
+    margin-left: 8%;
+
+}
+.opt a{
+	margin-top: 5%;
+}
+#admin a{
+	color:black;
+
+}
+#admin a:hover{
+	border-bottom: 2px solid orange;
+}
