@@ -71,7 +71,7 @@ if (isset($_GET['m'])) {
 						header('location:abmCat.php?m=4'); exit();
 
 					} else if (!empty($existe)){
-						header("location:abmCat.php?op=mod&m=1&papita=$papita"); exit();
+						header("location:abmCat.php?op=mod&m=1&papita=$papita&id=$id"); exit();
 					}
 
 				}
